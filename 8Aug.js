@@ -101,13 +101,47 @@ document.write("hello SAGE")
 //     console.log("Number is Odd")
 // }
 
-let n = prompt("Enter you Input")
-if('A'>=n>='Z' || 'a'>=n>='z'){
-    console.log("This is alphabet")
-}
-else if(0>=n>=0){
-    console.log("this is number")
-}
-else{
-    console.log("this is special character")
-}
+// program to check whether the given input is alphabet, number or special character:
+// let n = prompt("Enter you Input")
+// if('A'>=n>='Z' || 'a'>=n>='z'){
+//     console.log("This is alphabet")
+// }
+// else if(0>=n>=0){
+//     console.log("this is number")
+// }
+// else{
+//     console.log("this is special character")
+// }
+
+//Program to check weather the given number is divisible by 5 and 11 or not:
+
+// let n = Number(prompt("Enter your number:"))
+// if(n%5==0){
+//     if(n%11==0){
+//         console.log("The number is divisible by both 5 and 11")
+//     }
+//     else{
+//     console.log("The number is divisible only by 5")}
+// }
+// else if(n%11==0){
+//     console.log("The number is divisible only by 11")
+// }
+// else{
+//     console.log("The given number is not divisible by 5 and 11")
+// }
+
+
+// Program-to-check-whether-triangle-is-valid-or-not.html
+
+// let m = Number(prompt("Enter the first angle"))
+// let n = Number(prompt("Enter the second angle"))
+// let o = Number(prompt("Enter the third angle"))
+
+// if(m+n+o==180){
+//     console.log("Triangle is valid")
+// }
+// else{
+//     console.log("Triangle is not valid")
+// }
+
+
