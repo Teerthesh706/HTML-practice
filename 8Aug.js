@@ -175,3 +175,84 @@ document.write("hello SAGE");
 //   i = i + 1;
 // }
 
+// let n = Number(prompt("Enter Your Number:"))
+// let i = n 
+// while(i>=0){
+//     console.log(i)
+//     i = i - 1
+// }
+
+// for(let char = 'a'; char <= 'z'; char = String.fromCharCode(char.charCodeAt(0) + 1)) {
+//     console.log(char);
+//   }
+
+//   let charCode = 97
+//   while(charCode <= 122){
+    
+//     const character = String.fromCharCode(charCode);
+//   console.log(character);
+//   charCode++;
+// }
+  
+// let n = Number(prompt("Enter your number:"))
+// let count = 0
+// let i = 0
+// while(i<=n){
+//    count = count + i
+//    i = i +1
+// }
+// console.log(count)
+
+// let n = Number(prompt("Enter your number:"))
+// let i = 0
+// let count = 0 
+// if(n%2==0){
+// while(i<=n){
+//     count = count + i 
+//     i = i + 2
+// }
+// }
+// console.log(count)
+
+// let n = Number(prompt("Enter your number:"))
+// let i = 0
+// let count = 0 
+// while(i<=n){
+//     if(i%2!=0){
+//         count = count + i
+//     }
+//     i = i + 1
+// }
+// console.log(count)
+
+// let n = Number(prompt("Enter the number which have more than 2 digit:"))
+// let y = 0
+// let first = 0
+// let i = n
+// while (n>0){
+//     y = n % 10
+//     n = parseInt(n/10)
+// }
+//     console.log("First digit",y)
+//     let x = i % 10
+//     console.log('last Digit',x)
+
+
+// let n = Number(prompt("Enter the number which have more than 2 digit:"))
+// let y = 0
+// let first = 0
+// let i = n
+// while (n>0){
+//     y = n % 10
+//     n = parseInt(n/10)
+// }
+//     console.log("First digit",y)
+//     let x = i % 10
+//     console.log('last Digit',x)
+
+//      a = y + x
+//      console.log("The sum of first and last digit is =", a)
+
+
+               
+
