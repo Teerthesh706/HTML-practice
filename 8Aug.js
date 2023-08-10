@@ -1,7 +1,7 @@
-console.log("welcome in javascript")
+console.log("welcome in javascript");
 //abv property is use to print in js console
 
-document.write("hello SAGE")
+document.write("hello SAGE");
 // abv property is use to write in the webpage
 
 // var z = 10; var y=25 ;
@@ -59,7 +59,6 @@ document.write("hello SAGE")
 //     console.log ("Third value is greater")
 // }
 
-
 // program to print week days by pressing no. keys:
 // let n= Number(prompt("Enter the Number"))
 // switch (n) {
@@ -72,7 +71,7 @@ document.write("hello SAGE")
 //         case 3:
 //             console.log("wednesday")
 //             break;
-            
+
 //             case 4:
 //                 console.log("thursday")
 //                 break;
@@ -90,7 +89,6 @@ document.write("hello SAGE")
 //         console.log("out of range")
 //         break;
 // }
-
 
 // program to check weather the no. is even or odd:
 // let n= Number(prompt("Enter the number"))
@@ -113,7 +111,7 @@ document.write("hello SAGE")
 //     console.log("this is special character")
 // }
 
-//Program to check weather the given number is divisible by 5 and 11 or not:
+// Program to check weather the given number is divisible by 5 and 11 or not:
 
 // let n = Number(prompt("Enter your number:"))
 // if(n%5==0){
@@ -130,7 +128,6 @@ document.write("hello SAGE")
 //     console.log("The given number is not divisible by 5 and 11")
 // }
 
-
 // Program-to-check-whether-triangle-is-valid-or-not.html
 
 // let m = Number(prompt("Enter the first angle"))
@@ -144,4 +141,37 @@ document.write("hello SAGE")
 //     console.log("Triangle is not valid")
 // }
 
+// while(true){
+//     console.log("Hello Sage")
+// }
+
+// let i=1
+// while(i<=100){
+//     console.log(i)
+//     i=i+1
+// }
+
+// let n= Number(prompt("Enter your number:"))
+// let i =0
+// while(i<=n){
+
+//     if(i==(n/2)){
+//         i++
+//     }
+//     else{
+//         console.log(i)
+//         i++
+//     }
+//     }
+
+// let n = Number(prompt("Enter the number:"));
+// let i = 0;
+// while (i <= n) {
+//   if (i % 2 == 0) {
+//     console.log(i, "even");
+//   } else {
+//     console.log(i, "odd");
+//   }
+//   i = i + 1;
+// }
 
