@@ -1,8 +1,8 @@
 console.log("welcome in javascript");
-//abv property is use to print in js console
+// above property is use to print in js console
 
 document.write("hello SAGE");
-// abv property is use to write in the webpage
+// above property is use to write in the webpage
 
 // var z = 10; var y=25 ;
 // console.log(z)
@@ -62,29 +62,27 @@ document.write("hello SAGE");
 // program to print week days by pressing no. keys:
 // let n= Number(prompt("Enter the Number"))
 // switch (n) {
-//         case 1:
+//     case 1:
 //         console.log("monday")
 //         break;
-//         case 2:
-//             console.log("tuesday")
+//     case 2:
+//         console.log("tuesday")
 //         break;
-//         case 3:
-//             console.log("wednesday")
-//             break;
-
-//             case 4:
-//                 console.log("thursday")
-//                 break;
-//                 case 5:
-//                     console.log("friday")
-//                     break;
-//                     case 6:
-//                         console.log("saturday")
-//                         break;
-//                         case 7:
-//                             console.log("sunday")
-//                             break;
-
+//     case 3:
+//         console.log("wednesday")
+//         break;
+//     case 4:
+//         console.log("thursday")
+//         break;
+//     case 5:
+//         console.log("friday")
+//         break;
+//     case 6:
+//         console.log("saturday")
+//         break;
+//     case 7:
+//         console.log("sunday")
+//         break;
 //     default:
 //         console.log("out of range")
 //         break;
@@ -119,13 +117,13 @@ document.write("hello SAGE");
 //         console.log("The number is divisible by both 5 and 11")
 //     }
 //     else{
-//     console.log("The number is divisible only by 5")}
+//         console.log("The number is divisible only by 5")}
 // }
 // else if(n%11==0){
-//     console.log("The number is divisible only by 11")
+//         console.log("The number is divisible only by 11")
 // }
 // else{
-//     console.log("The given number is not divisible by 5 and 11")
+//         console.log("The given number is not divisible by 5 and 11")
 // }
 
 // Program-to-check-whether-triangle-is-valid-or-not.html
@@ -252,6 +250,102 @@ document.write("hello SAGE");
 
 //      a = y + x
 //      console.log("The sum of first and last digit is =", a)
+
+
+// Program of even odd using arrow function
+
+// const checkEvenOdd = (number) => {
+//     if(number % 2 === 0) {
+//       return "Even";
+//     } else {
+//       return "Odd";
+//     }
+//   };
+  
+//   console.log(checkEvenOdd(5)); // Output: Odd
+//   console.log(checkEvenOdd(10)); // Output: Even
+  
+
+// arrays in JavaScript::::
+//in js we have no need to define the size of array
+// let a = [10,20,30,40,50]
+// console.log(a) //this will print the whole array
+// console.log(a[0]) //this is called indexing
+//  let sum = 0;
+//  consol,e.log(a.length)
+//  for(j,=0; j<a.length; j++){
+//     sum= sum+a[j];
+//  }
+//  console.log(sum)
+ 
+//  m = [1,2,3,4,5]
+// //  following of,in,etc are the iteration function
+// //  this is for printing the elements of array
+//  for(i of m){ 
+//     console.log(`Value ${i}`)
+//  }
+// //  this is for printing the index of array's element
+//  for(i in m){
+//     console.log(`Value ${i}`)
+//  }
+// // this is a simplified version of for loop
+//  let n = [3,4,5,6,7]
+//  n.forEach(function(item){
+//     console.log(item)
+//  })
+
+
+// push pop unshift shift
+let z = [100,200,300,400,500]
+z.push(600) //this will print 600 at last position
+console.log(z)
+z.pop() //this will delete the last element of array
+console.log(z)
+z.unshift(800) //this will print 800 at first position 
+console.log(z)
+z.shift() //this will delete the first element of array 
+console.log(z)
+
+let v = [9,8,7,6,5]
+x = v.pop()
+y = v.shift()
+v.push(y)
+v.unshift(x)
+console.log(v)
+
+let f = [9,8,7,6,5]
+f.slice(0,2) //this is used to delete the portion of array
+console.log(f) 
+let g = [80,90,100,110,120,130]
+g.splice(1,0,"hello") // this is used to delete the portion of array and write no. of elements at that position
+console.log(g)
+
+let p =[1,2,3,4,5,6,7,8,9]
+let b = p.map(function(item){ //map is used to traverse the whole array 1 by 1
+    return item*2
+})
+console.log(b)
+
+let q = [10,20,30,40,50,60,70,80,90]
+let s = q.map(function(op){
+    if(op<50){
+        return 'fail'
+    }
+    else{
+        return 'pass'
+    }   
+})
+console.log(s)
+let u = q.filter(function(op){ //this is used to filter the array by the constraints we give
+    return op>50
+})
+console.log(u)
+
+let t = q.reduce(function(k,c){  
+    return k+c
+})
+console.log(t)
+
 
 
                
